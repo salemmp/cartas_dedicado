@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+.cartas{
+    
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 10px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuerpo_cartas{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    
+}
+
+.container_tipo_servicio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 3px;
+}
+.container_tipo_servicio strong{
+    margin-bottom: 10px;
+}
